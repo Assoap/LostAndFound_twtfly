@@ -23,23 +23,3 @@ class NickNamePage extends StatelessWidget {
             )));
   }
 }
-
-class PageContentPage extends StatelessWidget {
-  const PageContentPage({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Row(
-      children: [
-        TextField(
-          decoration: InputDecoration(labelText: ('昵称'), hintText: ('请修改昵称')),
-        ),
-        OutlinedButton(
-            onPressed: () {
-              ///to do
-            },
-            child: Text('确定'))
-      ],
-    );
-  }
-}
